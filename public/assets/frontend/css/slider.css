@@ -1,0 +1,233 @@
+
+#wrap {
+  padding: 30px 0;
+}
+
+.review-title {
+  margin-bottom: 30px;
+}
+
+.review-card--option-1 {
+  border: 1px solid #D8D8D8;
+  padding: 25px;
+}
+.review-card--option-2 {
+  padding: 0 15px;
+}
+.review-card--option-3 {
+  padding: 0 200px;
+}
+.review-card--option-4 {
+  padding: 30px;
+}
+.review-card .review-card-img {
+  border: 1px solid #eee;
+  width: 100px;
+  height: 70px;
+  background-image: url("https://unsplash.it/200");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0 auto 15px;
+}
+.review-card .review-author .ra-author {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+.review-card .review-author .ra-rating-star {
+  margin: 0 0 15px;
+  padding: 0;
+  list-style-type: none;
+}
+.review-card .review-author .ra-rating-star li {
+  display: inline-block;
+  margin: 0 -2px;
+}
+.review-card--option-4 {
+  border: 1px solid #D8D8D8;
+}
+
+.carousel-wrap {
+  width: 635px;
+  margin: 0 auto;
+  position: relative;    height: 330px;
+}
+.carousel-wrap .carousel{    margin-left: 18%;}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-wrap {
+    width: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-wrap {
+    width: 350px;
+    height: 345px;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-wrap {
+    width: 240px;
+	    height: 220px;
+  }
+}
+
+.carousel > li {
+  width: 350px;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel > li {
+    width: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .carousel > li {
+    width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .carousel > li {
+    width: 240px;
+  }
+  .counter-item22 .icon {
+    top: -28px;
+}
+.counter-item22 .icon {
+    top: -23px;
+}
+}
+
+.items {
+  position: absolute;
+}
+
+.main-pos {
+  margin-left: 2em !important;
+  z-index: 3000;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-pos {
+    margin-left: -40px !important;
+  }
+}
+@media (max-width: 767px) {
+  .main-pos {
+    margin-left: -40px !important;
+  }
+}
+
+.left-pos {
+  opacity: 0.5;
+  margin-left: -17em !important;
+  z-index: 1000;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.left-pos .review-card--option-4 {
+  background: rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .left-pos {
+    margin-left: -220px !important;
+  }
+}
+@media (max-width: 767px) {
+  .left-pos {
+    margin-left: -113px !important;
+  }
+}
+@media (max-width: 480px) {
+  .left-pos {
+    margin-left: -145px !important;
+  }
+}
+
+.back-pos {
+  opacity: 0.05;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.right-pos {
+  opacity: 0.5;
+  margin-left: 21em !important;
+  z-index: 1000;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  transform: scale(0.75);
+}
+.right-pos .review-card--option-4 {
+  background: rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .right-pos {
+    margin-left: 140px !important;
+  }
+}
+@media (max-width: 767px) {
+  .right-pos {
+    margin-left: 30px !important;
+  }
+}
+@media (max-width: 480px) {
+  .right-pos {
+    margin-left: 62px !important;
+  }
+}
+
+.slider {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+.slider a {
+  color: #999;
+}
+.slider i {
+  font-size: 45px;
+}
+.slider #prev,
+.slider #next {
+  position: absolute;
+}
+.slider #prev {
+  left: -214px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .slider #prev {
+    left: -180px;
+  }
+}
+@media (max-width: 767px) {
+  .slider #prev {
+    left: -70px;
+  }
+}
+.slider #next {
+  right: -214px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .slider #next {
+    right: -180px;
+  }
+}
+@media (max-width: 767px) {
+  .slider #next {
+    right: -70px;
+  }
+}
+@media (max-width: 480px) {
+  .slider {
+    display: none;
+  }
+}
